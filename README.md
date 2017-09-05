@@ -1,4 +1,4 @@
-# Google Stock Screener
+# Google-based Stock Screener
 *Have you ever wished a good selection of stocks be delivered daily to your inbox?* *Have you ever wished you could navigate in a few moments through the thousands of names available for investment in the stock markets?* **So did I.** 
 
 Therefore, I created this module to support my own investment activity. 
@@ -24,8 +24,8 @@ sudo apt-get install git
 
 Copy the repository on your computer and rename the sample config file
 ```
-git clone https://github.com/terzim/GoogleStockScreener.git
-cd GoogleStockScreener
+git clone https://github.com/terzim/StockScreener.git
+cd StockScreener
 mv config-sample.ini config.ini
 ```
 Install the python requirements
