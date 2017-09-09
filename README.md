@@ -40,6 +40,8 @@ pip3 install -r requirements.txt # If using a standard Python3 distributions
 ## Configuration
 Open the ```config.ini``` file in your favourite text editor. Edit the configuration parameters accordingly.
 
+See the myconfigs folder for a few screening config ideas. 
+
 ### Screener data
 
 Sample config file:
@@ -78,8 +80,8 @@ CRITERIA1 = (e.g. pe_ratio)
 CRITERIA1_MIN = (e.g. 5)
 CRITERIA1_MAX = (e.g. 15)
 CRITERIA2 = (e.g. price_to_book)
-CRITERIA2_MIN = 1
-CRITERIA2_MAX = 3
+CRITERIA2_MIN = (e.g. 1)
+CRITERIA2_MAX = (e.g. 3)
 CRITERIA3 =
 CRITERIA3_MIN =
 CRITERIA3_MAX =
