@@ -161,7 +161,7 @@ class StockScreener(object):
         :param currency: the selected currency(ies)
         :param sector: the selected sector
         """
-        self.urlBeginning = 'https://www.google.com/finance?output=json&start=0&num=3000&noIL=1&q='
+        self.urlBeginning = 'https://finance.google.com/finance?output=json&start=0&num=3000&noIL=1&q='
         self.exchanges = exchanges
         self.currency = currency
         self.sector = sector
